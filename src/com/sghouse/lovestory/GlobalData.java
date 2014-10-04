@@ -12,8 +12,6 @@ public class GlobalData {
 	public static final String CONTENT_IMAGE_MULTIPLE_SELECTIONS = "CONTENT_IMAGE_MULTIPLE_SELECTIONS";
 	public static final String HOW_MANY_IMAGES_TO_ADD = "HOW_MANY_IMAGES_TO_ADD";
 	
-	public static final String HOW_MANY_IMAGES_TO_DELETE = "HOW_MANY_IMAGES_TO_ADD";
-	
 	
 	
 }
