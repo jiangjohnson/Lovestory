@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/roseflower"
+    >
+
+        <TextView
+            android:id="@+id/textView_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:singleLine="false"         
+            android:text="@string/forum_lovematters_text"
+            android:textColor="#00FF00"
+            android:layout_alignParentTop="true" 
+            android:layout_margin="5dp" />
+       
+         <TextView
+             android:id="@+id/textView_comments_Author"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/textView_comments"
+             android:layout_margin="5dp"             
+             android:singleLine="true"
+             android:text="@string/forum_lovematters_author"
+             android:textColor="#00FF00" />
+         
+          <TextView
+              android:id="@+id/textView_comments_time"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"              
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/textView_comments"
+              android:layout_margin="5dp"                           
+              android:singleLine="true"
+              android:text="@string/commenttime"
+              android:textColor="#00FF00" />
+          
+         <TextView
+              android:id="@+id/textView_comments_floor"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"              
+              android:layout_toLeftOf="@+id/textView_comments_time"   
+              android:layout_below="@+id/textView_comments"          
+              android:layout_marginTop="5dp"           
+              android:layout_marginRight="20dp"                
+              android:singleLine="true"
+              android:text="@string/commentfloor"
+              android:textColor="#00FF00" />        
+        
+</RelativeLayout>

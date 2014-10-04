@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lovestory</string>
+    <string name="action_settings">Settings</string>
+    <!--Main Panel -->
+    <string name="lovespace">情感空间</string>
+    <string name='nonstring'></string>
+    <string name='artistname'>Rihanna</string>
+    <string name='duration'>4:45</string>
+    <string name='title_section1'>Section1</string>
+    <string name='title_section2'>Section2</string>
+    <string name='title_section3'>Section3</string>
+    <string name='title_section4'>Section4</string>
+    <string name='title_section5'>Section5</string>
+    <string name='title_section6'>Section6</string>
+    <string name='title_section7'>Section7</string>
+    <string name='title_section8'>Section8</string>
+    <string name='title_section9'>Section9</string>
+    <string name='title_section10'>Section10</string>
+    
+    <string name='tab1'>Tab1</string>
+    <string name='tab2'>Upload Image</string>
+    <string name='tab3'>Tab3</string>
+    <string name='tab4'>Tab4</string>
+    
+    <string name='Imagegallery'>Gallery</string>
+    <string name='Imagegcamera'>Camera</string>
+    <string name='Imagegdefault'>Default Image</string>
+    
+    <string name='uploadimage'>Upload Image</string>
+    <string name='resizeimage'>Resize Image</string>
+    <string name='multipleimagepick'>Pick Images</string>
+    <string name="descrimage">Image</string>
+    
+    <!-- forum  lovematters-->
+    <string name='forum_lovematters_text'>hello, welcome to love matters thread!!! hello, welcome to love matters thread!!! hello, welcome to love matters thread!!! hello, welcome to love matters thread!!!hello, welcome to love matters thread!!!hello, welcome to love matters thread!!!hello, welcome to love matters thread!!!hello, welcome to love matters thread!!!hello, welcome to love matters thread!!!</string>
+    <string name='forum_lovematters_replies'>replies</string>
+    <string name='forum_lovematters_viewers'>viewers</string>
+    <string name='forum_lovematters_author'>johnson</string>
+    <string name='commenttime'>2mins ago</string>
+    <string name='commentfloor'>floor ?</string>
+    <string name='attachmentnotes'>(new thread: write something->attach at most three pics->submit)</string>
+    <string name='submission'>Submit</string>
+    <string name='nullstring'></string>
+     
+    <string name="multipleimageselction">Select Multiple Photos</string>
+    <string name="deleteimage">delete</string>
+      
+    
+   
+    
+    
+    
+   
+    
+    
+    
+    
+    
+
+</resources>

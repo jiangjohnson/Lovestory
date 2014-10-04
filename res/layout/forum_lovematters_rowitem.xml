@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/roseflower"
+    >
+
+    <TextView
+            android:id="@+id/textView_forum_lovematters_topicID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""           
+            android:visibility="gone" />
+    
+        <TextView
+            android:id="@+id/textView_forum_lovematters_topicbrief"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"           
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:minLines="2"
+            android:singleLine="false"         
+            android:text="@string/forum_lovematters_text"
+            android:textColor="#00FF00"
+            android:layout_alignParentTop="true" 
+            android:layout_margin="5dp" />
+       
+         <TextView
+             android:id="@+id/textView_forum_lovematters_Author"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/textView_forum_lovematters_topicbrief"
+             android:layout_margin="5dp"
+             
+             android:singleLine="true"
+             android:text="@string/forum_lovematters_author"
+             android:textColor="#00FF00" />
+         
+          <TextView
+              android:id="@+id/textView_forum_lovematters_Viewers"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"              
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/textView_forum_lovematters_topicbrief"
+              android:layout_margin="5dp"                           
+              android:singleLine="true"
+              android:text="@string/forum_lovematters_viewers"
+              android:textColor="#00FF00" />
+         <TextView
+              android:id="@+id/textView_forum_lovematters_Replies"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toLeftOf="@+id/textView_forum_lovematters_Viewers"
+              android:layout_below="@+id/textView_forum_lovematters_topicbrief"
+              android:layout_marginTop="5dp"
+              android:layout_marginRight="20dp"       
+              android:singleLine="true"
+              android:text="@string/forum_lovematters_replies"
+              android:textColor="#00FF00" /> 
+        
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sghouse.lovestory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="19" />
+        <uses-feature android:name="android.hardware.camera" android:required="false"  />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />       
+        <uses-permission android:name="android.permission.INTERNET"/>
+        <!-- separate drawable resources for the icon (Launcher) and the logo (ActionBar, among other things). -->
+    <application
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:icon="@drawable/lovestory_launch_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:logo="@drawable/lovestory_forum_loveaffairs"
+        android:name="MultipleImageSelectionUILApplication">
+        
+        
+        <activity
+            android:name="com.sghouse.lovestory.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sghouse.lovestory.ForumListActivity"  android:parentActivityName="com.sghouse.lovestory.MainActivity"> 
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.sghouse.lovestory.MainActivity" />         
+        </activity>
+        <activity
+            android:name="com.sghouse.lovestory.UploadImageActivity"  android:parentActivityName="com.sghouse.lovestory.MainActivity"> 
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.sghouse.lovestory.MainActivity" />            
+        </activity> 
+        <activity
+            android:name="com.sghouse.lovestory.MultipleImageSelectionActivity" android:label="@string/multipleimageselction">          
+        </activity>    
+    </application>
+</manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    
+    android:background="#C0C0C0"    
+    style="?android:attr/buttonBarStyle"
+    >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab1" 
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab2" 
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button1"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab3" 
+         android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button2"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab4" 
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button3"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+</RelativeLayout>

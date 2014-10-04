@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent" 
+      android:layout_height="match_parent">
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText_forum_lovematters_topicdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minLines="6"
+        android:inputType="textMultiLine"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView_forum_lovematters_image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lovestory_launch_icon" 
+        android:contentDescription="@string/nullstring"              
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imageView_forum_lovematters_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lovestory_launch_icon"
+        android:contentDescription="@string/nullstring"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imageView_forum_lovematters_image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lovestory_launch_icon"
+        android:contentDescription="@string/nullstring"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageButton_forum_lovematters_cameraimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/nullstring"          
+            android:background="@drawable/lovestory_camera" />
+
+        <ImageButton
+            android:id="@+id/imageButton_forum_lovematters_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:layout_toRightOf="@+id/imageButton_forum_lovematters_cameraimage"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/lovestory_gallery"
+            
+            android:contentDescription="@string/nullstring" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/button_imageButton_forum_lovematters_submission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submission" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attachmentnotes"
+        android:textSize="12sp" />
+
+</LinearLayout>
+</ScrollView>
